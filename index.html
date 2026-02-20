@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malena Gamarra | Artista Plástica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <a href="#hero" class="brand">MG</a>
+        <div class="menu-toggle" id="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="nav-overlay" id="nav-overlay">
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link" data-text="Inicio">Inicio</a></li>
+                <li><a href="#about" class="nav-link" data-text="Sobre Mí">Sobre Mí</a></li>
+                <li><a href="#projects" class="nav-link" data-text="Portafolio">Portafolio</a></li>
+                <li><a href="#contact" class="nav-link" data-text="Contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="line">Malena</span>
+                <span class="line">Gamarra</span>
+            </h1>
+            <p class="hero-subtitle">ARTISTA PLÁSTICA & VISUAL</p>
+        </div>
+        <div class="scroll-indicator">
+            <span>SCROLL</span>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="geo-shape shape-triangle"></div>
+        <div class="geo-shape shape-circle"></div>
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">Arte & Muralismo <br>Creativo</h2>
+                    <p class="lead-text">Transformo tus ideas en obras maestras que embellezcan y enriquezcan cualquier
+                        espacio.</p>
+                    <p>Soy una artista apasionada por el arte y la creatividad, especializada en la creación de murales
+                        impactantes, cuadros personalizados y proyectos artísticos únicos. Mi enfoque combina la técnica
+                        clásica con una visión contemporánea, creando atmósferas que cuentan historias.</p>
+                </div>
+                <div class="about-image-placeholder" data-note="Insertar foto artista página 1">
+                    <img src="https://loremflickr.com/600/800/woman,artist,colorful/all" alt="Malena Gamarra">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="portfolio-section">
+        <div class="portfolio-header">
+            <h2 class="section-title">Portafolio</h2>
+        </div>
+
+        <div class="project-list">
+            <!-- Project 1 -->
+            <article class="project-item">
+                <div class="project-info">
+                    <span class="project-number">01</span>
+                    <h3 class="project-title">Gran Mural Insignia</h3>
+                    <p class="project-location">Centro Comercial Gran Manzana</p>
+                    <p class="project-desc">A través de colores vibrantes y detalles meticulosos, este mural captura la
+                        diversidad de especies que habitan nuestros ecosistemas.</p>
+                    <a href="#" class="view-project">Ver Proyecto</a>
+                </div>
+                <div class="project-image" data-note="Insertar imagen Gran Manzana p4">
+                    <img src="https://loremflickr.com/1200/800/jungle,mural,birds/all" alt="Gran Mural Insignia">
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-item reverse">
+                <div class="project-info">
+                    <span class="project-number">02</span>
+                    <h3 class="project-title">Mural Estilo Botánico</h3>
+                    <p class="project-location">Interiores</p>
+                    <p class="project-desc">Composición orgánica que integra la naturaleza en espacios interiores,
+                        creando frescura y serenidad.</p>
+                    <a href="#" class="view-project">Ver Proyecto</a>
+                </div>
+                <div class="project-image" data-note="Insertar imagen Botanico p5">
+                    <img src="https://loremflickr.com/1200/800/botanical,leaves,painting/all"
+                        alt="Mural Estilo Botánico">
+                </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-item">
+                <div class="project-info">
+                    <span class="project-number">03</span>
+                    <h3 class="project-title">Fresco a Frida</h3>
+                    <p class="project-location">Restaurante La Santa Guadalupe</p>
+                    <p class="project-desc">Homenaje cromático y vibrante en honor a Frida Kahlo, capturando su esencia
+                        y fuerza.</p>
+                    <a href="#" class="view-project">Ver Proyecto</a>
+                </div>
+                <div class="project-image" data-note="Insertar imagen Frida p3">
+                    <img src="https://loremflickr.com/1200/800/frida,kahlo,art/all" alt="Fresco Frida">
+                </div>
+            </article>
+
+            <!-- Project 4 -->
+            <article class="project-item reverse">
+                <div class="project-info">
+                    <span class="project-number">04</span>
+                    <h3 class="project-title">Muralismo Sublime</h3>
+                    <p class="project-location">Hotel Boutique Sublime</p>
+                    <p class="project-desc">Intervención artística muralista que redefine la elegancia del espacio
+                        hotelero.</p>
+                    <a href="#" class="view-project">Ver Proyecto</a>
+                </div>
+                <div class="project-image" data-note="Insertar imagen Hotel Sublime p6">
+                    <img src="https://loremflickr.com/1200/800/hummingbird,art,mural/all" alt="Hotel Boutique Sublime">
+                </div>
+            </article>
+
+            <!-- Project 5 -->
+            <article class="project-item">
+                <div class="project-info">
+                    <span class="project-number">05</span>
+                    <h3 class="project-title">Nobleza Salvaje</h3>
+                    <p class="project-location">Mural Cromático</p>
+                    <p class="project-desc">Pintura acrílica que explora la fuerza y belleza de la vida salvaje con una
+                        paleta intensa.</p>
+                    <a href="#" class="view-project">Ver Proyecto</a>
+                </div>
+                <div class="project-image" data-note="Insertar imagen Nobleza Salvaje p7">
+                    <img src="https://loremflickr.com/1200/800/leopard,painting,art/all" alt="Nobleza Salvaje">
+                </div>
+            </article>
+
+            <!-- Project 6 -->
+            <article class="project-item reverse">
+                <div class="project-info">
+                    <span class="project-number">06</span>
+                    <h3 class="project-title">Ara Macao</h3>
+                    <p class="project-location">Entre Hojas</p>
+                    <p class="project-desc">Representación vibrante del guacamayo en su hábitat natural, jugando con luz
+                        y color.</p>
+                    <a href="#" class="view-project">Ver Proyecto</a>
+                </div>
+                <div class="project-image" data-note="Insertar imagen Ara Macao p8/9">
+                    <img src="https://loremflickr.com/1200/800/macaw,parrot,art/all" alt="Ara Macao">
+                </div>
+            </article>
+
+            <!-- Project 7 -->
+            <article class="project-item">
+                <div class="project-info">
+                    <span class="project-number">07</span>
+                    <h3 class="project-title">Alma de San Jacinto</h3>
+                    <p class="project-location">Hotel Cartagena Plaza</p>
+                    <p class="project-desc">Mural típico que honra las raíces culturales, la música y las tradiciones de
+                        la región.</p>
+                    <a href="#" class="view-project">Ver Proyecto</a>
+                </div>
+                <div class="project-image" data-note="Insertar imagen San Jacinto p11">
+                    <img src="https://loremflickr.com/1200/800/colombia,mural,culture/all" alt="Alma de San Jacinto">
+                </div>
+            </article>
+
+            <!-- Project 8 -->
+            <article class="project-item reverse">
+                <div class="project-info">
+                    <span class="project-number">08</span>
+                    <h3 class="project-title">Plantación Tropical</h3>
+                    <p class="project-location">Mural Relax</p>
+                    <p class="project-desc">Mural con la intención de relajar y conectar por medio de colores suaves y
+                        naturales.</p>
+                    <a href="#" class="view-project">Ver Proyecto</a>
+                </div>
+                <div class="project-image" data-note="Insertar imagen Plantacion p15">
+                    <img src="https://loremflickr.com/1200/800/tropical,plants,art/all" alt="Plantación Tropical">
+                </div>
+            </article>
+
+            <!-- Project 9 -->
+            <article class="project-item">
+                <div class="project-info">
+                    <span class="project-number">09</span>
+                    <h3 class="project-title">El Ciclista</h3>
+                    <p class="project-location">Decoración de Interiores</p>
+                    <p class="project-desc">Mural dinámico que captura la velocidad y la pasión por el deporte.</p>
+                    <a href="#" class="view-project">Ver Proyecto</a>
+                </div>
+                <div class="project-image" data-note="Insertar imagen Ciclista p13">
+                    <img src="https://loremflickr.com/1200/800/cyclist,art,painting/all" alt="El Ciclista">
+                </div>
+            </article>
+
+            <!-- Project 10 -->
+            <article class="project-item reverse">
+                <div class="project-info">
+                    <span class="project-number">10</span>
+                    <h3 class="project-title">Plantación Cafetera</h3>
+                    <p class="project-location">Hotel Cartagena Plaza</p>
+                    <p class="project-desc">Alianza con Café Tostao. Un homenaje visual a la cultura cafetera.</p>
+                    <a href="#" class="view-project">Ver Proyecto</a>
+                </div>
+                <div class="project-image" data-note="Insertar imagen Cafetera p17">
+                    <img src="https://loremflickr.com/1200/800/coffee,plant,mural/all" alt="Plantación Cafetera">
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <h2 class="footer-title">Hablemos</h2>
+            <div class="footer-links">
+                <a href="#" class="footer-link">Instagram</a>
+                <a href="#" class="footer-link">Email</a>
+                <a href="#" class="footer-link">WhatsApp</a>
+            </div>
+            <p class="copyright">© 2026 Malena Gamarra. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
